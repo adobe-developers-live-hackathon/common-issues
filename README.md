@@ -13,3 +13,8 @@ You may need to exit the current process and run aio app run again.
 
 ### Missing param error
 If you see the following error, it is because you did not pass in required params to an action expecting one.
+
+### NodeJS with Mac M1 chip
+There are no pre-compiled NodeJS binaries for versions prior to 15.x for Apple's new M1 chip (arm64 architecture). One solution is to change the architecture of your shell from arm64 to x86.
+
+We recommend using the [Node Version Manager (nvm)](https://github.com/nvm-sh/nvm) over [Homebrew](https://brew.sh/) and follow their [troubleshooting guides for macOS](https://github.com/nvm-sh/nvm#macos-troubleshooting) (section Macs with M1 chip).
