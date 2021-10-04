@@ -10,3 +10,6 @@ Then try to run `aio login` again.
 ### "Your connection is not private" in the browser
 If you see this message when navigating to https://localhost:9080, click `Advanced` and `Proceed to localhost (unsafe)` to accept the certificate.
 You may need to exit the current process and run aio app run again.
+
+### Missing param error
+If you see the following error, it is because you did not pass in required params to an action expecting one.
